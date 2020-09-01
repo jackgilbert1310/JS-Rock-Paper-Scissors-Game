@@ -2,16 +2,13 @@
 var countdownTimerEl = document.getElementById('countdownTimer');
 var startBtnEl = document.getElementById('startBtn');
 var optionsBlockEl = document.getElementById('options');
-
 var userScoreEl = document.getElementById('userScore');
 var oppScoreEl = document.getElementById('oppScore');
-
 var confirmedOptionTextEl = document.getElementById('confirmedOptionText');
 var oppConfirmedOptionTextEl = document.getElementById('oppConfirmedOptionText');
 
 var oppConfirmedOption = "";
 var confirmedOption = "";
-
 var options = ["rock", "paper", "scissors"];
 
 var userScore = 0;
