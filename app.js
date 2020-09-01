@@ -47,7 +47,7 @@ function setOption(option) {
 
 function oppChoseOption() {
     var randomPos = Math.floor(Math.random() * options.length);
-    oppConfirmedOption = options[randomPos]
+    oppConfirmedOption = options[randomPos];
     oppConfirmedOptionTextEl.innerHTML = `Your opponent has chosen: ${oppConfirmedOption}!`;
     checkWhoWon();
 }
